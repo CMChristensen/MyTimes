@@ -28,8 +28,40 @@ nav {
   display: flex;
   align-items: flex-end;
   justify-content: space-between;
+  margin-right: 25px;
 }
 
 nav span {
-  padding-right: 25px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+#main-container {
+  display: flex;
+  width: 100%;
+  margin: 0 auto;
+  padding-top: 100px;
+
+}
+
+div {
+  border: 1px solid black;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  margin: auto 30px;
+}
+
+.column.large {
+  width: 630px;
+}
+
+.column.medium {
+  width: 300px;
+}
+
+.column.small {
+  width: 240px;
 }
