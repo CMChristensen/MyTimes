@@ -69,5 +69,18 @@ div {
 
 .image {
   display: flex;
-  background-image: url("resources/img-story-main.png");
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+}
+
+.image.tuna {
+  background-image: url("img-story-main.png");
+}
+
+p {
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
 }
