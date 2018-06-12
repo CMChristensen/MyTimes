@@ -5,7 +5,7 @@ header {
   width: 100%;
   height: 80px;
   z-index: 1;
-  border: 1px solid black;
+  border-bottom: 1px solid black;
   font-family: Verdana;
   font-weight: bold;
   font-size: 14px;
@@ -25,7 +25,7 @@ header {
   margin-left: 10px;
 }
 
-nav {
+header nav {
   display: flex;
   align-items: flex-end;
   justify-content: space-between;
@@ -44,8 +44,9 @@ nav a {
 .main-container {
   display: flex;
   width: 1300px;
-  margin: 0 auto 0 auto;
-  padding-top: 100px;
+  margin: 0 auto;
+  padding-top: 120px;
+  padding-bottom: 80px;
 
 }
 
@@ -80,6 +81,7 @@ nav a {
 .image.tuna {
   background-image: url("img-story-main.png");
   font-size: 40px;
+  text-align: left;
 }
 
 .image.earth {
@@ -123,4 +125,30 @@ p {
   color: DimGray;
   padding: 10px 20px;
   border-bottom: 1px solid black
+}
+
+footer {
+  display: flex;
+  background-color: mediumAquamarine;
+  height: 400px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: Verdana;
+  font-size: 12px;
+  margin: auto;
+}
+
+.title {
+  color: white;
+  font-size: 16px;
+  font-family: Georgia;
+  font-weight: bold;
+  padding-right: 20px;
+  border-right: 2px solid white;
+}
+
+footer nav {
+  display: inline-block;
+  padding-left: 20px;
 }
